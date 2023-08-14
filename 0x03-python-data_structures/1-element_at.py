@@ -1,5 +1,3 @@
-1-element_at.py
-
 #!/usr/bin/python3
 # 1-element_at.py
 
