@@ -17,7 +17,7 @@ if __name__ == "__main__":
 
     for state in session.query(State).order_by(State.id).all():
         for c in state.name:
-            if c == 'a':
+        -   if c == 'a':
                 session.delete(state)
                 break
     session.commit()
