@@ -1,2 +1,2 @@
-The time complexity of the function:
 O(log(n))
+O(1)
