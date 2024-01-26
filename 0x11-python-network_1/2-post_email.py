@@ -8,7 +8,7 @@ from urllib import request, parse
 
 if __name__ == "__main__":
     url = argv[1]
-    email = {"Your email is:": argv[2]}
+    email = {"email": argv[2]}
     email = parse.urlencode(email).encode("ascii")
     with request.urlopen(url, email) as req:
         print(req.read().decode('utf-8'))
