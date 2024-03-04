@@ -8,8 +8,8 @@ $.ajax({
   const movies = data.results;
 
   for (let i = 0; i < movies.length; ++i) {
-    const Title = movies[i].title;
-    const element = `<li>${Title}`;
+    const Title_list = movies[i].title;
+    const element = `<li>${Title_list}`;
     $List.append(element);
   }
 });
